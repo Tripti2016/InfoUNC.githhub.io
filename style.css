@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Josefin+Sans:wght@300&family=Lato:wght@300&family=Open+Sans&family=Outfit:wght@600&family=Roboto:wght@100&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: black;
+}
+nav{
+
+   width:100vw;
+   height:100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height:50px;
+    padding-top:10px;
+    /* background-color: black; */
+}
+.cinema-name{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-family: 'Baloo Bhai 2';
+    font-size: 47px;
+    /* padding-top: 50px; */
+}
+.name{
+    height:55px;
+}
+.cinema-name span{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    font-family: 'Baloo Bhai 2';
+    font-size: 17px;
+    padding-top: -10px;
+   
+   
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    padding-left:250px;
+}
+.navbar ul li{
+    list-style: none;
+    padding:5px
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding:5px;
+    font-family: 'Baloo Bhai 2';
+    color: #4a2f15;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+  
+    color: beige;
+    background-color: #4a2f15;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 7px;
+    
+}
+.search{
+    display: flex;
+    flex-direction: row;
+width: 120px;
+
+font-family: 'Baloo Bhai 2';
+justify-content: space-between;
+}
+.search img{
+width:30px;
+height:30px;
+
+}
+.search img:hover{
+    background-color:wheat;
+    color:beige ;
+    border-radius: 3px;
+    padding: 1px;
+    
+    }
+.search .signIn{
+    width:70px;
+    height: 30px;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5px;
+    border: 1px white;
+}
+.search .signIn:hover{
+    color: brown;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-weight: bold;
+}
+.background-img{
+position: absolute;
+top:0;
+z-index: -1;
+width:100vw;
+height:100vh;
+}
+.background-img img{
+    width:100%;
+    height:100%;
+}
+.comment {
+   width:500px;
+margin-top:100px;
+    display: flex;
+    flex-direction:column;
+}
+    
+.comment img{
+    width: 500px;
+}
+.comment-1{
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-around;
+    color: antiquewhite;
+    font-family: 'Baloo Bhai 2';
+    color: #cdba8b;
+    align-content: center;
+
+   
+}
+.comment-1 h1{
+   
+    color: antiquewhite;
+    font-family: 'Baloo Bhai 2';
+    color: #cdba8b;
+    align-content: center;
+    font-size: 30px;
+
+   
+}
+
+.comment-1 .book-now{
+    width:80px;
+    height: 40px;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5px;
+    border: 1px white;
+    font-size: 15px;
+}
+.comment-1 .book-now:hover{
+    color: brown;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-weight: bold;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    font-family: 'Baloo Bhai 2';
+}
+.hero-head{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-head h1{ 
+
+    font-size: 40px;
+    color: #876629;
+    margin-left: 80px;
+
+}
+.hero-head .search-box{
+    width: 300px;
+    height: 30px;
+    border-radius: 9px;
+    background-color: #9f9f85;
+    margin-right: 40px;
+}
+.break{
+    margin: auto;
+    width: 87vw;
+    height: 3px;
+    background-image: linear-gradient(to right, rgb(200 19 0), rgb(0,0,0));
+    margin-bottom: 20px;
+}
+.movie-top{
+    width:70vw;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    margin-left:70px;
+    margin-top: 30px;
+    
+
+}
+/* .box1{
+  
+    font-size: 20px;
+  
+    
+    padding:5px;
+    
+} */
+
+.box1 h3{
+    font-size: 20px;
+    width: 120px;
+    height: 30px;
+    background-color: #2f3236;
+    margin-left: 15px;
+    color: #98957e;
+    text-align: center;
+    border-radius: 2px;
+    font-family: "baloo bhai";
+    padding-top: 5px;
+}
+.box-1 h3{
+    font-size: 20px;
+  
+    padding-top: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: #4a2f15;
+    margin-left: 8px;
+    color: #98957e;
+    text-align: center;
+    border-radius: 2px;
+    font-family: "baloo bhai";
+}
+.box-1 h3:hover{
+color: beige;
+    background-color: #e0d8d0;
+    color:  #4a2f15;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.box1 h3:hover{
+    color: beige;
+        background-color: #e0d8d0;
+        color:  #4a2f15;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 7px;
+    }
+      
+
+.movie-head{
+    font-size: 22px;
+    color: #d39053;
+    font-family: "baloo bhai";
+    margin-left: 38px;
+    margin-top: 20px;
+    /* background-color: #cdba8b82; */
+    /* width: 300px; */
+    border-radius: 18px;
+    text-align: center;
+}
+
+.gal-container {
+  
+    height:auto;
+    display: flex;
+   /* flex-direction: row; */
+ 
+        width: 95%;
+        /* gap: 35px; */
+    justify-content: center;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+
+    
+  
+    
+}
+
+    
+    .gal-container .gal-box img{
+        height:70%;
+        width:80%;
+        object-fit: fill;
+        object-position: cover;
+        border-radius: 20px;
+        
+       
+    }
+    .gal-box .gal-content{
+        
+       
+        font-family: 'Baloo Bhai 2';
+        color: #cdba8b;
+        align-content: center;
+        font-size: 18px;
+        word-spacing: 1px;
+    }
+    .gal-box .gal-content p{
+        
+       
+        font-family: 'Baloo Bhai 2';
+        color: #cdba8b;
+        align-content: center;
+        font-size: 15px;
+        word-spacing: 1px;
+    }
+    .gal-box{
+        overflow: hidden;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0,1);
+        border: 1rem soild white;
+      
+        /* flex: 1 1 30rem; */
+        height: 25rem;
+     
+        width: 18%;
+        margin-top: 20px;
+        
+    
+        }
+    
+    
+ 
+   
